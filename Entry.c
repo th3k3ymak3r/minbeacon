@@ -12,8 +12,11 @@
 
 typedef struct
 {
+	D_API( RtlInitUnicodeString );
 	D_API( RtlAllocateHeap );
+	D_API( LdrUnloadDll );
 	D_API( RtlFreeHeap );
+	D_API( LdrLoadDll );
 } API ;
 
 /* API Hashes */

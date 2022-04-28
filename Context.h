@@ -19,11 +19,10 @@ typedef struct
 		BYTE	Aes[ 16 ];
 		BYTE	Mac[ 16 ];
 	};
-	/* Static */
-	ULONG	Bid;
+	UINT32	Bid;
 
 	/* Libraries */
-	PVOID	K32;
-	PVOID	C32;
-	PVOID	Adv;
+	HANDLE	K32;
+	HANDLE	C32;
+	HANDLE	Adv;
 } MINBEACON_CTX, *PMINBEACON_CTX ; 

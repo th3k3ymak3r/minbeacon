@@ -18,6 +18,7 @@
 #include "Native.h"
 #include "Labels.h"
 #include "Random.h"
+#include "Buffer.h"
 #include "Hash.h"
 #include "Peb.h"
 #include "Pe.h"
